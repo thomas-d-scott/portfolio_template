@@ -1,0 +1,56 @@
+p {
+    font-size: 0.8rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+#nav-links {
+    display: none;
+}
+
+nav h1 {
+    width: 100%;
+    text-align: center;
+}
+
+ul.grid-item-detail {
+    font-size: 0.8rem;
+}
+
+header {
+    background: url('../img/showcase-mobile.jpg') no-repeat center center /cover;
+}
+
+header::before {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+header .content {
+    padding: 100px 50px;
+}
+
+#projects .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#projects .project {
+    box-shadow: none;
+}
+
+#skills .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#currentprojects .current-projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#contact .contact-grid {
+    grid-template-columns: repeat(1, 1fr);
+}

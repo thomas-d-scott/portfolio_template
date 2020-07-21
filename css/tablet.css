@@ -1,0 +1,28 @@
+
+header .content {
+    padding: 0 150px;
+}
+
+header {
+    background: url('../img/showcase-mobile.jpg') no-repeat center center /cover;
+}
+
+header::before {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#projects .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#skills .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#currentprojects .current-projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#contact .contact-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
